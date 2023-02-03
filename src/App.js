@@ -3,42 +3,40 @@ import './App.css';
 import Home from './Home.js'
 import Header from './Header.js'
 import Footer from './Footer';
-// import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
+import Login from './Login';
+import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 // import SearchPage from './SearchPage';
 // import Navbar from './Navbar';
+// import Header from './Header.js';
 function App() {
   return (
-  <>
-    <Header/>
-    <Home/>
-    {/* <Footer/> */}
-  </>
-    // <div className="App">
-    //   <Router>
-    //     <Header/>
+  
+    <div className="App">
+      <Router>
+        <Header/>
 
-    //     <Routes>
-    //       {/* / */}
-    //       {/* <Route path="/">
-    //       <Home/>
-    //       </Route> */}
-    //       <Route path='/' element={<Home/>} />
-    //       <Route path='/search' element={<SearchPage/>} />
-    //       {/* searchPage */}
-    //       {/* <Route path='/search'>
-    //       <SearchPage/>
-    //       </Route> */}
-    //     </Routes>
+         <Routes>
+         {/* / */}
+          {/* <Route path="/">
+         <Home/>
+          </Route>  */}
+           <Route path='/' element={<Home/>} />
+           <Route path='/login' element={<Login/>} />
+          {/* searchPage */}
+         {/* <Route path='/search'>
+           <SearchPage/>
+         </Route> */}
+       </Routes>
 
-    //     <Footer/>
+         {/* <Footer/> */}
 
-    //   {/* </Router> */}
+       </Router> 
 
-    //     {/* Searchpage */}
-    //         {/* header */}
+         {/* Searchpage */}
+             {/* header */}
           
-    //         {/* ..... */}
-    // </div>
+             {/* ..... */}
+    </div>
   ); 
 }
 
