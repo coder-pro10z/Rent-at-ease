@@ -1,25 +1,45 @@
-import logo from './logo.svg';
+// import React from react;
 import './App.css';
-
+import Home from './Home.js'
+import Header from './Header.js'
+import Footer from './Footer';
+// import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
+// import SearchPage from './SearchPage';
+// import Navbar from './Navbar';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  <>
+    <Header/>
+    <Home/>
+    {/* <Footer/> */}
+  </>
+    // <div className="App">
+    //   <Router>
+    //     <Header/>
+
+    //     <Routes>
+    //       {/* / */}
+    //       {/* <Route path="/">
+    //       <Home/>
+    //       </Route> */}
+    //       <Route path='/' element={<Home/>} />
+    //       <Route path='/search' element={<SearchPage/>} />
+    //       {/* searchPage */}
+    //       {/* <Route path='/search'>
+    //       <SearchPage/>
+    //       </Route> */}
+    //     </Routes>
+
+    //     <Footer/>
+
+    //   {/* </Router> */}
+
+    //     {/* Searchpage */}
+    //         {/* header */}
+          
+    //         {/* ..... */}
+    // </div>
+  ); 
 }
 
 export default App;
