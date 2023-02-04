@@ -7,12 +7,12 @@ import {Link} from "react-router-dom";
 const Header = () => {
   return (
     < div className='header'>
-        <Link to="/">
-          <img className="header_icon" src={logo} alt="logo"></img>
-        </Link>
+        <div  className='logo'>
+         RentIt
+        </div>
           {/* <p>Navbar</p> */}
         <div className='header_center'>
-            <input type="text"></input>
+            <input type="text" placeholder='Search your Destination...'></input>
             <SearchIcon/>
         </div>
         <div className='header_right'>

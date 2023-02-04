@@ -6,14 +6,21 @@
 
 }
 .header{
-    height: 12vh;
-    background-color: rgb(60, 120, 233) ;
+    /* height: 8vh;
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 15px; */
+    /* From https://css.glass */
+    height: 9vh;
+background: rgba(255, 112, 2, 0.708);
+border-radius: 0px 0px 15px 15px;
+box-shadow: 5px 10px 150px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(18.9px);
+-webkit-backdrop-filter: blur(18.9px);
+border: 1px solid rgb(195, 195, 195);
 }
-.header > header_icon{
-    height: 10vh;
-}
+
 .header_center > input{
-    background-color: rgb(60, 120, 233);
+    background-color: rgb(255, 255, 255);
 }
 
 .inner_box{

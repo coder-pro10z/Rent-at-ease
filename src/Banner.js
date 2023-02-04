@@ -4,6 +4,9 @@ import { Button } from '@material-ui/core'
 const Banner = () => {
   return (
     <div className='banner'>
+      <div className="banner-img">
+
+      
         <div className='banner_info'>
     
         <h1>Find a place to rent on REntit.</h1>
@@ -12,6 +15,7 @@ const Banner = () => {
         </h4>   
         <Button> Register Now</Button>
 
+        </div>
         </div>
     </div>
   )

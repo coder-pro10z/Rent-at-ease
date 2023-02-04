@@ -8,11 +8,10 @@
     border-bottom-right-radius: 5mm;
     z-index: 100;
 }
-.header_icon{
-   object-fit: contain;
-    height: 7em;
-    max-height: 200px;
-    margin-right: 20px;
+.logo{
+   justify-content: left;
+   margin: 20px;
+   font-size: 35px;
     
 }
 
@@ -29,7 +28,7 @@
 .header_center> input{
     /* border-color: 0px white; */
     border:none;
-    background-color: blueviolet;
+    background-color: rgb(216, 209, 221);
 }
 .header_right{
     display: flex;
