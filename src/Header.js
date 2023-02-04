@@ -22,10 +22,11 @@ const Header = () => {
             <Link to="/login" >
             <div className='sign_up'>Sign Up</div>
             </Link>
+            <div>...</div>
         </div>
 
     
-          </div>
+    </div>
   )
 }
 
