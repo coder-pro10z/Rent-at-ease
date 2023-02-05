@@ -29,7 +29,9 @@
 .header_center> input{
     /* border-color: 0px white; */
     border:none;
-    background-color: blueviolet;
+    outline: none;
+    background: transparent;
+    /* background-color: blueviolet; */
 }
 .header_right{
     display: flex;

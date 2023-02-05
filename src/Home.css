@@ -1,0 +1,43 @@
+.searchdiv{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    text-align: center;
+    padding: 2vh;
+    justify-content: space-between;
+}
+ .search_bar{
+    margin:0.5vw;
+    display:flex;
+    flex:1; 
+    align-items: center;
+    max-width: fit-content;
+    border: solid #d3d3d3;
+    border-radius: 999px;
+    padding:1vw;
+ } 
+.search_bar > input{
+border: 0;
+outline: 0;
+background: none;
+} 
+
+.searchdiv{ 
+     background-color: rgb(255, 255, 255);
+}
+
+ .searchdiv > button{
+     /* border: #4b3232 2px;  */
+  color:rgb(184, 153, 153);
+    background-color: rgb(57, 75, 212);
+}
+/* .search > button:hover{ */
+    /* border: #852d2d 2px; */
+/*    background-color:rgb(255, 255, 255);
+    color: rgb(57, 75, 212);
+} */
+.searchdiv > adultCount{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
