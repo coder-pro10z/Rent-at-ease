@@ -4,6 +4,7 @@ import "./Header.css"
 import SearchIcon from '@material-ui/icons/Search';
 import logo from "./images/logo.jpg"
 import {Link} from "react-router-dom";
+import StyledMenu from "./Menu"
 const Header = () => {
   return (
     < div className='header'>
@@ -22,7 +23,7 @@ const Header = () => {
             <Link to="/login" >
             <div className='sign_up'>Sign Up</div>
             </Link>
-            <div className='moreMenu'>...</div>
+            <div className='moreMenu'><StyledMenu/></div>
         </div>
 
     
