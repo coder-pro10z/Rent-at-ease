@@ -1,71 +1,61 @@
 import React,{useState} from 'react'
-<<<<<<< HEAD
-=======
-import Banner from './Banner'
+import Card from "./Card"
 import SearchIcon from '@material-ui/icons/Search'
 import "./Home.css"
-import Search from "./Search.js"
-import { useNavigate } from 'react-router-dom'
 import PeopleIcon from '@material-ui/icons/People';
-// import  PeopleIcon  from '@material-ui/core'
-import {Button} from '@material-ui/core'
->>>>>>> b8129a624e70bc73e2b2a44357a89a4e403e7434
-
-import SearchIcon from '@material-ui/icons/Search'
-import "./Home.css"
-import Search from "./Search.js"
-import { useNavigate } from 'react-router-dom'
-import PeopleIcon from '@material-ui/icons/People';
-// import  PeopleIcon  from '@material-ui/core'
-import {Button} from '@material-ui/core'
 import SearchDates from './SearchDates.js'
 function Home() {
-<<<<<<< HEAD
   
 
-=======
-  const navigate=useNavigate();
-  const [showSearch,setShowSearch]=useState(true)
->>>>>>> b8129a624e70bc73e2b2a44357a89a4e403e7434
   return (
     <div>
       <div className='searchdiv'>
         <div className='search_bar'>
             <input type="text" placeholder='Search for the destination'></input>
-<<<<<<< HEAD
             <SearchIcon/></div>
         
-
         <div className='search'><SearchDates/></div>
       
         <div className="adultCount">Rooms for 1 adult <PeopleIcon/></div>  
     </div>
-  
+    <div className='cardSection'>
+        <h2>Featured Hotels </h2>
+      <div className='recHotels'>
+        <Card src="	https://a0.muscache.com/im/pictures/8244569a-779e-4f3f-a750-597438456480.jpg?im_w=720"
+              title="Entire homes"
+              description="Comfortable private places, with room for friends or family."/>
+
+              <Card src="	https://a0.muscache.com/im/pictures/8244569a-779e-4f3f-a750-597438456480.jpg?im_w=720"
+              title="Entire homes"
+              description="Comfortable private places, with room for friends or family."/>
+
+
+              <Card src="	https://a0.muscache.com/im/pictures/8244569a-779e-4f3f-a750-597438456480.jpg?im_w=720"
+              title="Entire homes"
+              description="Comfortable private places, with room for friends or family."/>
+
+
+        </div>
+
+        <h2>Featured PGs' and Hostels </h2>
+        <div className='recPg'>
+        <Card src="	https://a0.muscache.com/im/pictures/8244569a-779e-4f3f-a750-597438456480.jpg?im_w=720"
+              title="Entire homes"
+              description="Comfortable private places, with room for friends or family."/>
+
+              <Card src="	https://a0.muscache.com/im/pictures/8244569a-779e-4f3f-a750-597438456480.jpg?im_w=720"
+              title="Entire homes"
+              description="Comfortable private places, with room for friends or family."/>
+
+
+              <Card src="	https://a0.muscache.com/im/pictures/8244569a-779e-4f3f-a750-597438456480.jpg?im_w=720"
+              title="Entire homes"
+              description="Comfortable private places, with room for friends or family."/>
+
+        </div>
+    </div>
     
 </div>
-=======
-            <SearchIcon/>
-        </div>
-        {/* <div>
-        {showSearch && <Search/>}
-        <div className='banner_search'>
-            <button onClick={()=>setShowSearch(!showSearch)} className="banner_searchButton"variant="outlined">
-              {showSearch?"Hide":"Search Dates"}
-            </button>
-        </div>
-      </div> */}
-
-      <div className='sea
-      '><Button>Search Dates</Button></div>
-      
-      <div className="adultCount">Rooms for 1 adults <PeopleIcon/></div>
-      <div>
-      </div>  
-    </div>
-    <Banner/>
-     {/* <h1> This is Homepage. </h1> */}
-  </div>
->>>>>>> b8129a624e70bc73e2b2a44357a89a4e403e7434
   )
 }
 

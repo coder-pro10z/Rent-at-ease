@@ -7,16 +7,17 @@
     background-color: blueviolet;
     border-bottom-right-radius: 5mm;
     z-index: 100;
+    max-height: 7.5vh;
 }
 .header_icon{
    object-fit: contain;
     height: 7em;
-    max-height: 200px;
+    max-height:5hv;
     margin-right: 20px;
     
 }
 .logo{
-    text-emphasis-color: black;
+    /* text-emphasis-color: black; */
     text-decoration: black;
     color:black;
     font-weight: bolder;
@@ -36,20 +37,21 @@
 }
 .header_center> input{
     /* border-color: 0px white; */
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
     /* border:none;
     outline: none;
     background: transparent; */
     /* background-color: blueviolet; */
 
-=======
-    border:none;
-    outline: none;
-    background: transparent;
+/* ======= */
+    /* border:none; */
+    /* outline: none; */
+    /* background: transparent; */
     /* background-color: blueviolet; */
-}
->>>>>>> b8129a624e70bc73e2b2a44357a89a4e403e7434
+/* } */
+/* >>>>>>> b8129a624e70bc73e2b2a44357a89a4e403e7434 */
 .header_right{
+    color:black;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -74,7 +76,9 @@
     /* width: 10vw; */
     margin-right: 2vw;
 }
-
+.sign_up{
+    color: black;
+}
 .moreMenu{
     border: 2px;
  display: flex;
