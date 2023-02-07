@@ -59,6 +59,13 @@ max-width: fit-content;
     font-weight: 500;
 }
 
+.adultCount:hover{
+    color: white;
+    transition-duration: 600ms;
+    transition-delay: 100ms;
+
+}
+
 .cardSection{
     font-weight: 800
 }
