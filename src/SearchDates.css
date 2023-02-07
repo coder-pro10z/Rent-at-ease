@@ -1,26 +1,64 @@
-.bar_searchButton{
-    border-color: lightgray;
-    background-color: white;
-    color: rgb(247, 106, 129);
-    /* color: white; */
-    text-transform: inherit;
-    /* border-radius: 50px; */
-    padding: 8px;
-    /* margin-top: 20px; */
-    font-weight:750;
-
+.banner1{
+    position: relative;
 }
 
-.bar_searchButton:hover{
+/* .banner_info{ */
+    /* background-color: black; */
+    /* color: white; */
+    /* padding-top: 20vh; */
+    /* padding-left: 50px; */
+    /* padding-right: 50px; */
+    /* padding-bottom: 30px; */
+    /* width: 300px;  */
+/* } */
+
+.banner1 > button{
+    background-color: rgb(247, 106, 129);
+    color: white;
+    text-transform: inherit;
+    border-radius: 50px;
+    /* padding: 8px; */
+    /* margin-top: 20px; */
+    /* font-weight:600; */
+}
+
+/* .banner_info > h5{
+    margin-top: 10px; 
+
+} */
+/* 
+.banner_info > button:hover{
+    background-color: white;
+    color: rgb(247, 106, 129);
+    border-radius: 5px;
+} */
+
+.banner_search{
+    
+    display:flex;
+    flex-direction:column ;
+}
+.banner_searchButton{
+    border-color: lightgray;
+    background-color: rgb(49, 92, 219);
+    color: rgb(255, 255, 255);
+    text-transform: inherit;
+    /* padding: 8px; */
+    font-weight:750;
+    border-radius: 5px;
+}
+
+.banner_searchButton:hover{
     transition-duration: 500ms;
     transition-delay: 100ms;
-    color: rgb(45, 123, 233);
-    background-color: rgb(247, 106, 129);
+    color: rgb(49, 92, 219);
+    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(247, 106, 129); */
     /* color: white; */
-    /* text-transform: inherit; */
+    text-transform: inherit;
     text:bold;
     /* border-radius: 50px; */
-    padding: 8px;
+    /* padding: 8px; */
     /* margin-top: 20px; */
     font-weight:750;
 

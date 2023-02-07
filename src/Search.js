@@ -28,16 +28,20 @@ const selectionRange={
         setEndDate(ranges.selection.endDate);
         }
 return (
-    <div className='search'>
+    <div className='search1'>
+        <div>
+
         <DateRangePicker ranges={[selectionRange]}
         onChange={handleSelect}/>
-        
+        </div>
+    
         <h2>
             Number of guests
-            <PeopleIcon/>
-        </h2>
         <input min={0} defaultValue={2} type="number" />
+            <PeopleIcon/>
         <Button onClick={()=>navigate('/search')} >Search Airbnb</Button>
+        </h2>
+        
         
     </div>
   )

@@ -8,13 +8,13 @@ const Header = () => {
   return (
     < div className='header'>
         <Link to="/">
-          <img className="header_icon" src={logo} alt="logo"></img>
+          <div className='logo'>
+            RentIt
+            </div>
+          {/* <img className="header_icon" src={logo} alt="logo"></img> */}
         </Link>
           {/* <p>Navbar</p> */}
-        <div className='header_center'>
-            <input type="text"></input>
-            <SearchIcon/>
-        </div>
+        
         <div className='header_right'>
             {/* <Link to="/"> */}
             <div className='host'>Become a Host</div>
@@ -22,7 +22,7 @@ const Header = () => {
             <Link to="/login" >
             <div className='sign_up'>Sign Up</div>
             </Link>
-            <div>...</div>
+            <div className='moreMenu'>...</div>
         </div>
 
     
