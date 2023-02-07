@@ -36,11 +36,19 @@
 }
 .header_center> input{
     /* border-color: 0px white; */
+<<<<<<< HEAD
     /* border:none;
     outline: none;
     background: transparent; */
     /* background-color: blueviolet; */
 
+=======
+    border:none;
+    outline: none;
+    background: transparent;
+    /* background-color: blueviolet; */
+}
+>>>>>>> b8129a624e70bc73e2b2a44357a89a4e403e7434
 .header_right{
     display: flex;
     align-items: center;
