@@ -2,7 +2,7 @@ import React from 'react'
 // import Navbar from './Navbar'\
 import "./Header.css"
 import SearchIcon from '@material-ui/icons/Search';
-import logo from "./images/logo.jpg"
+
 import {Link} from "react-router-dom";
 const Header = () => {
   return (

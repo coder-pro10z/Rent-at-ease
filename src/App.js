@@ -1,8 +1,9 @@
 // import React from react;
 import './App.css';
+
 import Home from './Home.js'
 import Header from './Header.js'
-import Footer from './Footer';
+// import Footer from './Footer';
 import Login from './Login';
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 // import SearchPage from './SearchPage';
@@ -36,6 +37,7 @@ function App() {
              {/* header */}
           
              {/* ..... */}
+        
     </div>
   ); 
 }
