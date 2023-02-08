@@ -29,19 +29,19 @@ const selectionRange={
         }
 return (
     <div className='search1'>
-        <div>
+        <div className='datepicker'>
 
         <DateRangePicker ranges={[selectionRange]}
         onChange={handleSelect}/>
         </div>
-    
-        <h2>
-            Number of guests
+        
+        <div className='sch_lwr'>
+        <h3>Number of guests</h3>
         <input min={0} defaultValue={2} type="number" />
             <PeopleIcon/>
         <Button onClick={()=>navigate('/search')} >Search Airbnb</Button>
-        </h2>
         
+        </div>
         
     </div>
   )

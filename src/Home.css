@@ -33,6 +33,8 @@ background: none;
 }
 
 .searchdiv > searchdt{
+    z-index:99;
+
      /* border: #4b3232 2px;  */
   color:rgb(184, 153, 153);
     background-color: rgb(57, 75, 212);

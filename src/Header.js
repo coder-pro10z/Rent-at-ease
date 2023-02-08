@@ -8,10 +8,11 @@ import StyledMenu from "./Menu"
 const Header = () => {
   return (
     < div className='header'>
-
+      <Link to="/">
         <div  className='logo'>
          RentIt
         </div>
+      </Link>
           {/* <p>Navbar</p> */}
        
 

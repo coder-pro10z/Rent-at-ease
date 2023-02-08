@@ -1,55 +1,51 @@
-*{margin:0;
 
-}
 .search1{
     /* display: flex; */
-    position: fixed;
+    z-index:99;
+
+    position: absolute;
     margin-top: 10vh;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     /* top: 35px; */
-    /* left: 25%; */
-    /* width: 100vw; */
+    right:33vw;
+    width: 100%;
 }
-
-.search1 > h2{
-
-    margin: 0;
-    /* align-items: center; */
+ 
+.sch_lwr{
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    /* padding: 5%; */
-    
     background-color: white;
     /* position: absolute; */
-    /* top: 380px; */
-
+     /* top: 380px;  */
+     padding: 0;
+    width: 60vw; 
 }
 
-h2 > input{
-    /* width: 500px; */
-    padding: 0;
-    position: relative ;
-    text-align: center;
+input{
+width: 10%;
+position: relative ;
+text-align: center;
     align-items: center;
-    width: 20%;
-    /* left: 0; */
-    /* height: 30px; */
-    /* top: 420px; */
     border: none;
-}
+} 
 
-.search1>input:focus{
+.sch_lwr>input:focus{
     outline-width: 0;
 }
-
- .search1> h2> Button{
+/* 
+ Button{
     position: absolute;
-    background-color: rgb(21, 101, 213);
-    color: white;
-    text-transform: inherit !important;
+     background-color: rgb(21, 101, 213);
+    color: white;} */
+    /* text-transform: inherit !important; */
     /* border-radius: 50px;
     /* padding: 8px; */
     /* font-weight:600; */ 
-}
+
+
 .search1>button:hover{
     color: rgb(21, 101, 213);
     
