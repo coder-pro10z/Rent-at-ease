@@ -13,10 +13,7 @@ const Header = () => {
          RentIt
         </div>
           {/* <p>Navbar</p> */}
-        <div className='header_center'>
-            <input type="text" placeholder='Search your Destination...'></input>
-            <SearchIcon/>
-        </div>
+       
 
         <div className='header_right'>
             {/* <Link to="/"> */}

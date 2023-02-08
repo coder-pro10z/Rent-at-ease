@@ -7,7 +7,7 @@
     background-color: blueviolet;
     border-bottom-right-radius: 5mm;
     z-index: 100;
-    max-height: 7.5vh;
+    max-height: 12vh;
 }
 
 .logo{
@@ -35,7 +35,7 @@
     border: solid #d3d3d3;
     border-radius: 999px;
     padding:1vw;
-}
+}*/
 .header_center> input{
     /* border-color: 0px white; */
 

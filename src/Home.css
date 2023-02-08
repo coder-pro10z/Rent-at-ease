@@ -42,11 +42,7 @@ max-width: fit-content;
 /* margin-left: 10vw; */
 
 }
-/* .search > button:hover{ */
-    /* border: #852d2d 2px; */
-/*    background-color:rgb(255, 255, 255);
-    color: rgb(57, 75, 212);
-} */
+
 .adultCount{
     display: flex;
     align-items: center;
