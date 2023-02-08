@@ -1,0 +1,131 @@
+/* .checkout{
+    display: flex;
+    /* flex-direction: row; */
+    /* align-items: center; */
+    /* text-align: center; */
+    /* padding: 2vh 0vh 2vh 2vh; */
+    /* justify-content: space-between; */
+
+
+.headbar{   display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    text-align: center;
+    padding: 2vh 0vh 2vh 2vh;
+    /* justify-content: space-evenly; */
+
+    font-weight: bold;
+    background-color: bisque;
+    /* vertical-align: middle; */
+}
+.left_page{
+    /* display: flex; */
+    width:45%;
+    left:7.5vw;
+    top: 25vh;
+    padding:5vw;
+    /* margin: 0; */
+    /* position: absolute; */
+
+}
+
+
+.right_page{
+    /* border: 20px solid #110c0c; */
+    margin:2vh 2vw;
+    width:40%;
+    position:absolute;
+    top:25vh;
+    /* border:2px black; */
+    border-radius: 1vw;
+    right:7.5vw;
+    background-color: antiquewhite;
+}
+
+.right_page{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 2px solid #3f3b3b;
+    
+}
+
+.block_first{
+    /* padding: 10vw; */
+    /* position: relative; */
+    /* width: 100vw; */
+}
+
+.div_date{
+    padding: 0;
+    margin-bottom:0;
+    /* padding:2vh 0vw 0vh 0; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.dateFromTo{
+    /* clear:both; */
+    /* position: relative; */
+    display: block;
+    float: left;
+    align-items: right;
+}
+.div_guests{
+    padding: 0;
+    margin-bottom:0;
+    /* padding:2vh 0vw 0vh 0; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.noOfGuest{
+    display: block;
+    float: left;
+    align-items: right;
+}
+
+.div_payment{
+    display:flex;
+    justify-content:space-between;
+}
+
+.requiredForTrip>h3{
+    display: block;
+    float: left;
+    /* align-items: right; */
+}
+
+.requiredForTrip>h4{
+    display: block;
+    position: inherit;
+    float: left;
+    /* align-items: right; */
+}
+
+.msg{
+    position: inherit;
+
+    display: block;
+    float: left;
+    /* align-items: right; */
+}
+.img{
+    display: flex;
+    float: left;
+    /* align-items: right; */
+}
+textarea{
+    position: relative;
+    border-radius: 5px;
+    border: 3px rgb(118, 115, 115)y;
+}
+.block3>button{
+    background-color: rgba(47, 16, 223, 0.882);
+    color: white;
+}
+
+.block3>button:hover{
+    color: rgba(47, 16, 223, 0.882);
+    background-color: white;
+}

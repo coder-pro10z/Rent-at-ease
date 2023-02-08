@@ -6,7 +6,7 @@ import Header from './Header.js'
 // import Footer from './Footer';
 import Login from './Login';
 import Welcome from './Welcome';
-import Checkout from './Checkout';
+import Checkout from './Checkout.js';
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 // import SearchPage from './SearchPage';
 // import Navbar from './Navbar';
