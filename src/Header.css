@@ -9,11 +9,12 @@
     z-index: 100;
     max-height: 7.5vh;
 }
-.header_icon{
-   object-fit: contain;
-    height: 7em;
-    max-height:5hv;
-    margin-right: 20px;
+
+.logo{
+   justify-content: left;
+   margin: 20px;
+   font-size: 35px;
+
     
 }
 .logo{
@@ -37,19 +38,13 @@
 }
 .header_center> input{
     /* border-color: 0px white; */
-/* <<<<<<< HEAD */
-    /* border:none;
-    outline: none;
-    background: transparent; */
-    /* background-color: blueviolet; */
 
-/* ======= */
-    /* border:none; */
-    /* outline: none; */
-    /* background: transparent; */
-    /* background-color: blueviolet; */
-/* } */
-/* >>>>>>> b8129a624e70bc73e2b2a44357a89a4e403e7434 */
+    border:none;
+    background-color: rgb(216, 209, 221);
+}
+
+
+
 .header_right{
     color:black;
     display: flex;
