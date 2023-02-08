@@ -4,9 +4,11 @@ import "./Header.css"
 import SearchIcon from '@material-ui/icons/Search';
 
 import {Link} from "react-router-dom";
+import StyledMenu from "./Menu"
 const Header = () => {
   return (
     < div className='header'>
+
         <div  className='logo'>
          RentIt
         </div>
@@ -15,6 +17,7 @@ const Header = () => {
             <input type="text" placeholder='Search your Destination...'></input>
             <SearchIcon/>
         </div>
+
         <div className='header_right'>
             {/* <Link to="/"> */}
             <div className='host'>Become a Host</div>
@@ -22,10 +25,11 @@ const Header = () => {
             <Link to="/login" >
             <div className='sign_up'>Sign Up</div>
             </Link>
+            <div className='moreMenu'><StyledMenu/></div>
         </div>
 
     
-          </div>
+    </div>
   )
 }
 
