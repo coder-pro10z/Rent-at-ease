@@ -5,7 +5,7 @@ import Header from './Header.js'
 import Footer from './Footer';
 import Login from './Login';
 import Welcome from './Welcome';
-
+import Checkout from './Checkout';
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 // import SearchPage from './SearchPage';
 // import Navbar from './Navbar';
@@ -25,6 +25,7 @@ function App() {
            <Route path='/' element={<Home/>} />
            <Route path='/login' element={<Login/>} />
            <Route path='/welcome' element={<Welcome/>} />
+           <Route path='/checkout' element={<Checkout/>} />
            
           {/* searchPage */}
          {/* <Route path='/search'>
