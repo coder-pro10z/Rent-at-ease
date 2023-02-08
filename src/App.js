@@ -1,8 +1,9 @@
 // import React from react;
 import './App.css';
+
 import Home from './Home.js'
 import Header from './Header.js'
-import Footer from './Footer';
+// import Footer from './Footer';
 import Login from './Login';
 import Welcome from './Welcome';
 
@@ -40,6 +41,7 @@ function App() {
              {/* header */}
           
              {/* ..... */}
+        
     </div>
   ); 
 }
